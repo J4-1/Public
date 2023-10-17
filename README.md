@@ -1,5 +1,4 @@
-# Public
-
+# Welcome
 Welcome to the official Git.
 > You can use this as a resource for information links, and other data made publicly available. 
 
