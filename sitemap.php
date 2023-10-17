@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+
+    <link rel="stylesheet" type="text/css" href="./script.css">
+
+</head>
+<body>
+  <br><br><br>
+  <a href="https://j41.cc" target="_blank"><img src="https://i.ibb.co/Bjqm8rM/j4105.png" width="100px" height="100px"></a> 
+  <br>
+  <br> 
+  <h1>Github | Public Repo </h1>
+  <a href="https://github.com/J4-1/Public"><button class="button" id="button1">Backend</button></a>
+  <a href="https://git.j41.cc"><button class="button" id="button2">Frontend</button></a>
+  <br><br><br>
+  
+  <a href="https://j41.cc"><button class="button" id="button3">Main Website</button></a>
+  <br>
+  <br>
+  <p> J41 (c) 2023</p>
+  <br><br>
+
+  <!--
+    // Links
+    https://github.com/J4-1/Public  | COM | BACKEND
+    https://j4-1.github.io/Public   | IO  | UNMASKED
+    https://git.j41.cc              |     | MASKED
+  -->
+
+</body>
+</html>
