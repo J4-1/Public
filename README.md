@@ -4,9 +4,16 @@ Welcome to the official Git.
 
 # Official Link(s)
 Domain Config: Masked
-Front-End: https://git.j41.cc 
-Back-End: https://j4-1.github.io/Public 
+Pimary Link: https://git.j41.cc 
+Front-End Link: https://j4-1.github.io/Public 
+Back-en Link: https://j4-1.github.io/Public 
+
 
 
 # Getting Started
-Cant find something? Message me, will do my best to keep this updates as best as I can.
+
+Official Git for J41.
+
+
+Cant find something? Contact to get support.
+support@j41.cc
