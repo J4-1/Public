@@ -1,41 +1,43 @@
+body {
+  background-color: #1e1e1e; /* Dark background color */
+  color: #ffffff; /* Text color */
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
 
-    body {
-      background-color: #1e1e1e; /* Dark background color */
-      color: #ffffff; /* Text color */
-      font-family: Arial, sans-serif;
-      text-align: center;
-    }
-    
-    h1 {
-      font-size: 36px;
-    }
-    
-    .button {
-      background-color: #353f36; /* Green button color */
-      color: #fff; /* Button text color */
-      padding: 10px 20px;
-      border: none;
-      cursor: pointer;
-      margin: 10px;
-      font-size: 18px;
-    }
+h1 {
+  font-size: 36px;
+}
 
-    .button-unSelected {
-      background-color: #353f36; /* Green button color */
-      color: #fff; /* Button text color */
-      padding: 10px 20px;
-      border: none;
-      cursor: pointer;
-      margin: 10px;
-      font-size: 18px;
-    }
+.button { 
+  background-color: #353f36; /* Green button color */
+  color: #fff; /* Button text color */
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  font-size: 18px;
+  border-radius: 10px; /* Adding rounded corners */
+}
 
-    .button-Selected {
-      background-color: #44814a; /* Green button color */
-      color: #fff; /* Button text color */
-      padding: 10px 20px;
-      border: none;
-      cursor: pointer;
-      margin: 10px;
-      font-size: 18px;
-    }
+.button-unSelected {
+  background-color: #353f36; /* Green button color */
+  color: #fff; /* Button text color */
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  font-size: 18px;
+  border-radius: 10px; /* Adding rounded corners */
+}
+
+.button-Selected {
+  background-color: #44814a; /* Different color for the selected button */
+  color: #fff; /* Button text color */
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  font-size: 18px;
+  border-radius: 10px; /* Adding rounded corners */
+}
