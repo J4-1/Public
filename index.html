@@ -1,45 +1,43 @@
+<!DOCTYPE html>
 <html>
-  <head>
+<head>
+  <style>
+    body {
+      background-color: #1e1e1e; /* Dark background color */
+      color: #ffffff; /* Text color */
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
     
-  </head>
-  <body>
+    h1 {
+      font-size: 36px;
+    }
     
-  <!-- Canvas -->
-<canvas class="orb-canvas"></canvas>
-<!-- Overlay -->
-<div class="overlay">
-  <!-- Overlay inner wrapper -->
-  <div class="overlay__inner">
-    <!-- Title -->
-    <h1 class="overlay__title">
-      Hey, would you like to learn how to create a
-      <span class="text-gradient">generative</span> UI just like this?
-    </h1>
-    <!-- Description -->
-    <p class="overlay__description">
-      In this tutorial we will be creating a generative “orb” animation
-      using pixi.js, picking some lovely random colors and pulling it all
-      together in a nice frosty UI.
-      <strong>We're gonna talk accessibility, too.</strong>
-    </p>
-    <!-- Buttons -->
-    <div class="overlay__btns">
+    .button {
+      background-color: #4CAF50; /* Green button color */
+      color: #fff; /* Button text color */
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      margin: 10px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Dark Background Page</h1>
+  <button class="button" id="button1">Button 1</button>
+  <button class="button" id="button2">Button 2</button>
 
-      <button class="overlay__btn overlay__btn--transparent">
-        <a href="https://georgefrancis.dev/writing/create-a-generative-landing-page-and-webgl-powered-background/" target="_blank">
+  <script>
+    // JavaScript for button click events
+    document.getElementById('button1').addEventListener('click', function() {
+      alert('Button 1 clicked!');
+    });
 
-          View Tutorial
-        </a>
-      </button>
-
-      <button class="overlay__btn overlay__btn--colors">
-        <span>Randomise Colors</span>
-        <span class="overlay__btn-emoji">🎨</span>
-      </button>
-    </div>
-  </div>
-</div>
-
-  
-  </body>
+    document.getElementById('button2').addEventListener('click', function() {
+      alert('Button 2 clicked!');
+    });
+  </script>
+</body>
 </html>
