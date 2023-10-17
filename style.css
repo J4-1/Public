@@ -10,8 +10,18 @@
       font-size: 36px;
     }
     
-    .button {
+    .button1-unSelected {
       background-color: #353f36; /* Green button color */
+      color: #fff; /* Button text color */
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      margin: 10px;
+      font-size: 18px;
+    }
+
+    .button1-Selected {
+      background-color: #44814a; /* Green button color */
       color: #fff; /* Button text color */
       padding: 10px 20px;
       border: none;
