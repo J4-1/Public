@@ -1,1 +1,21 @@
-/* Coming Soon
+
+    body {
+      background-color: #1e1e1e; /* Dark background color */
+      color: #ffffff; /* Text color */
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    
+    h1 {
+      font-size: 36px;
+    }
+    
+    .button {
+      background-color: #4CAF50; /* Green button color */
+      color: #fff; /* Button text color */
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      margin: 10px;
+      font-size: 18px;
+    }
